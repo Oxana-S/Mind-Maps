@@ -22,5 +22,5 @@
 ### Change directories to the initialized Git repository
 >$ git remote -v
 #### Вывод в терминале:
->origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git (fetch) 
+>origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git (fetch)    
 >origin  https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git (push)
