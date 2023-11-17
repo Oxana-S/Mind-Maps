@@ -23,7 +23,7 @@
 
 > $ cd YOUR_REPOSITORY папка на локальном компе
 
-### Change directories to the initialized Git repository
+### Посмотреть к какому удаленному репозиторию подключена папка:
 
 > $ git remote -v
 
