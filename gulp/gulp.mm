@@ -1,13 +1,14 @@
-<map version="freeplane 1.8.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Сборка Gulp-fls" FOLDED="false" ID="ID_1884208741" CREATED="1588597249806" MODIFIED="1588600518097"><hook NAME="MapStyle" zoom="2.357">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<map version="freeplane 1.11.5">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<node TEXT="Сборка Gulp-fls" FOLDED="false" ID="ID_1884208741" CREATED="1588597249806" MODIFIED="1700231126718" COLOR="#ffffff" BACKGROUND_COLOR="#006600" STYLE="oval"><hook NAME="MapStyle" zoom="2.357">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_1698360759" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1698360759" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -19,8 +20,9 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -34,8 +36,8 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -61,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="Установка Gulp:" POSITION="right" ID="ID_1378375997" CREATED="1588598881106" MODIFIED="1588599743600" HGAP_QUANTITY="1.250000379979598 pt" VSHIFT_QUANTITY="-0.7499999776482582 pt">
+<node TEXT="Установка Gulp:" FOLDED="true" POSITION="bottom_or_right" ID="ID_1378375997" CREATED="1588598881106" MODIFIED="1588599743600" HGAP_QUANTITY="1.25 pt" VSHIFT_QUANTITY="-0.75 pt">
 <node TEXT="Открытие Терминала в Vscode: &quot;Ctrl + ~&quot;" ID="ID_340541954" CREATED="1588598566335" MODIFIED="1588599796555"/>
 <node TEXT="Устанавливаем Gulp плобально:" ID="ID_1979813653" CREATED="1588597442976" MODIFIED="1588599789300">
 <node TEXT="npm install gulp-cli -g" ID="ID_1068578245" CREATED="1588597613834" MODIFIED="1588599062145">
@@ -101,7 +103,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Установка основных пакетов" POSITION="right" ID="ID_421544445" CREATED="1590003149328" MODIFIED="1590003174143">
+<node TEXT="Установка основных пакетов" FOLDED="true" POSITION="bottom_or_right" ID="ID_421544445" CREATED="1590003149328" MODIFIED="1590003174143">
 <node TEXT="gulp-sass" ID="ID_370925382" CREATED="1590003176757" MODIFIED="1590003190777">
 <node TEXT="npm i gulp-sass --sev-dev" ID="ID_140401733" CREATED="1590003275416" MODIFIED="1590003279549"/>
 </node>
@@ -125,16 +127,15 @@
     <span style="color: black; font-family: Fira Mono, Andale Mono, Consolas, monospace; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: nowrap; word-spacing: 0px; background-color: rgb(219, 255, 219); display: inline !important; float: none"><font color="black" face="Fira Mono, Andale Mono, Consolas, monospace" size="14px">npm i</font></span><font color="black" face="Fira Mono, Andale Mono, Consolas, monospace" size="14px"><span>&nbsp;</span><span style="color: black; font-family: Fira Mono, Andale Mono, Consolas, monospace; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: nowrap; word-spacing: 0px; background-color: rgb(219, 255, 219); display: inline !important; float: none">gulp-rename --sev-dev</span></font>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Создаем файл: &quot;gulpfile.js&quot;" POSITION="right" ID="ID_1810918823" CREATED="1588598961924" MODIFIED="1588599016454"/>
-<node TEXT="Создаем структуру папок проекта:" FOLDED="true" POSITION="right" ID="ID_388746694" CREATED="1588599706178" MODIFIED="1588599733614">
+<node TEXT="Создаем файл: &quot;gulpfile.js&quot;" POSITION="bottom_or_right" ID="ID_1810918823" CREATED="1588598961924" MODIFIED="1588599016454"/>
+<node TEXT="Создаем структуру папок проекта:" FOLDED="true" POSITION="bottom_or_right" ID="ID_388746694" CREATED="1588599706178" MODIFIED="1588599733614">
 <node TEXT="#src&gt;scss/style.scss, img/, fonts/, js/script.js, index.html" ID="ID_1364644704" CREATED="1588599931628" MODIFIED="1588600517103"/>
 </node>
-<node TEXT="Проверяем работу gulp:" FOLDED="true" POSITION="right" ID="ID_20819572" CREATED="1588600530689" MODIFIED="1588600564782">
+<node TEXT="Проверяем работу gulp:" FOLDED="true" POSITION="bottom_or_right" ID="ID_20819572" CREATED="1588600530689" MODIFIED="1588600564782">
 <node TEXT="вставляем код в &quot;gulpfile.js&quot;:" ID="ID_463727524" CREATED="1588600564785" MODIFIED="1588600612264">
 <node TEXT="function defaultTask(cb) {&#xa;  // place code for your default task here&#xa;  cb();&#xa;}&#xa;&#xa;exports.default = defaultTask" ID="ID_413103866" CREATED="1588600614541" MODIFIED="1588600620235"/>
 </node>
@@ -143,9 +144,9 @@
 <node TEXT="16:53:40] Using gulpfile D:\5_Screen_Sites\gulp-fls\gulpfile.js&#xa;[16:53:40] Starting &apos;default&apos;...&#xa;[16:53:40] Finished &apos;default&apos; after 2.67 ms" ID="ID_296766530" CREATED="1588600667413" MODIFIED="1588600672704"/>
 </node>
 </node>
-<node TEXT="Удаляем тестовый код" POSITION="right" ID="ID_363839556" CREATED="1588600775737" MODIFIED="1588600801421"/>
-<node TEXT="Запись сценариев" POSITION="right" ID="ID_6364623" CREATED="1588597790026" MODIFIED="1588600518096" HGAP_QUANTITY="10.250000111758705 pt" VSHIFT_QUANTITY="6.749999798834339 pt"/>
-<node TEXT="Ресурсы" POSITION="left" ID="ID_1878962353" CREATED="1590002628124" MODIFIED="1590002649091">
+<node TEXT="Удаляем тестовый код" POSITION="bottom_or_right" ID="ID_363839556" CREATED="1588600775737" MODIFIED="1588600801421"/>
+<node TEXT="Запись сценариев" POSITION="bottom_or_right" ID="ID_6364623" CREATED="1588597790026" MODIFIED="1588600518096" HGAP_QUANTITY="10.25 pt" VSHIFT_QUANTITY="6.75 pt"/>
+<node TEXT="Ресурсы" POSITION="top_or_left" ID="ID_1878962353" CREATED="1590002628124" MODIFIED="1590002649091">
 <node TEXT="Galp.js" ID="ID_1780814806" CREATED="1590002651781" MODIFIED="1590002663620"/>
 <node TEXT="npmjs.com" ID="ID_588487507" CREATED="1590002666217" MODIFIED="1590002712545"/>
 </node>
